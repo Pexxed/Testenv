@@ -31,4 +31,5 @@ def calculate():
     return f"The result is {result}"
 
 if __name__ == '__main__':
+  print("Test")
   app.run(host='0.0.0.0', port=80)
